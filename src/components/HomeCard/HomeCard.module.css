@@ -1,0 +1,8 @@
+.wrapper {
+  transition: 0.3s;
+  filter: drop-shadow(0px 0px 10px black);
+}
+
+.wrapper:hover {
+  filter: drop-shadow(0px 0px 1px black);
+}

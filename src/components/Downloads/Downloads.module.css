@@ -1,0 +1,58 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sheetContainer,
+.codeContainer {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sheetContainer {
+  overflow-y: scroll;
+  text-align: center;
+}
+
+.sheetContainer h1 {
+  font-family: sans-serif;
+}
+
+.canvas {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1rem;
+  border-radius: 0.2rem;
+  border: 2px solid rgb(46, 224, 224);
+  transition: 0.3s;
+  filter: drop-shadow(0px 0px 10px black);
+}
+.canvas:hover {
+  filter: drop-shadow(0px 0px 1px black);
+}
+
+.downloadButton {
+  display: inline-block;
+  scale: 1.5;
+  translate: 0 50%;
+}
+
+.codeContainerHeader {
+  display: flex;
+  justify-content: start;
+}
+
+.codeContainerBody {
+  overflow-y: scroll;
+  height: calc(100% - 4.5rem);
+}
+
+.codeContainer {
+  padding-top: 1.5rem;
+}
